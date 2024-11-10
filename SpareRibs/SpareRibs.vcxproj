@@ -150,7 +150,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Downloads\01_hello_SDL\01_hello_SDL\01_hello_SDL.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="code\GameLoop.cpp" />
+    <ClCompile Include="code\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\CommonIncludes.h" />
+    <ClInclude Include="code\GameLoop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
